@@ -84,7 +84,7 @@ inner join category on category.category_id = film_category.category_id
 into outfile '/var/lib/mysql-files/film_category.csv'
 FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n';
 
-select rental_id, rental_date, return_date, customer.first_name, customer.last_name, staff.username, film.title, inventory.store_id from rental
+select rental_id, rental_date, ifnull(return_date,""), customer.first_name, customer.last_name, staff.username, film.title, inventory.store_id from rental
 inner join inventory on inventory.inventory_id = rental.inventory_id
 inner join customer on customer.customer_id = rental.customer_id
 inner join staff on staff.staff_id = rental.staff_id

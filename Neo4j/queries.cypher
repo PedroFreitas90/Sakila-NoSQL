@@ -13,7 +13,7 @@ limit 3
 -- Top 3 dos filmes que tiveram alugados por mais tempo
 match(r:Rental)-[:filme_alugado]->(f:Film)
 where exists(r.return_date) 
-return f.title, (duration.between(datetime(r.rental_date), datetime(r.return_date))) as dur_avg
+return f.title, avg(duration.between(datetime(r.rental_date), datetime(r.return_date))) as dur_avg
 order by dur_avg desc
 limit 3
 

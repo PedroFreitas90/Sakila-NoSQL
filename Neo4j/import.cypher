@@ -27,7 +27,7 @@ create (st: Staff { first_name: line[0], last_name: line[1], email: line[4], act
 load csv from "file:///store.csv" as line
 match (adr: Address {address: line[0]})-[:pertence_a]->(ci: City {city : line[1]})
 match (m: Staff {username: line[2]})
-create (adr)<-[:localizada_em]-(sto: Store {store_id: line[3]})-[:gerenciado_por]->(m);
+create (adr)<-[:localizada_em]-(sto: Store {store_id: line[3]})-[:gerido_por]->(m);
 
 create index on :Store(store_id);
 
@@ -35,6 +35,8 @@ load csv from "file:///staff.csv" as line
 match (staff: Staff {username: line[6]})
 match (store: Store {store_id: line[8]})
 create (staff)-[:trabalha_em]->(store);
+
+create index on :Staff(username);
 
 load csv from "file:///category.csv" as line
 create (:Category{name:line[0]});
