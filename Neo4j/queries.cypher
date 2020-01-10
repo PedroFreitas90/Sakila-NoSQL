@@ -33,7 +33,7 @@ limit 5
 match(f:Film)-[:com_participacao_de]->(a:Actor)
 return count(f) as num_films,a
 order by num_films desc
-limit 5
+limit 3
 
 -- Top 5 das categorias mais alugadas
 match(r:Rental)-[:filme_alugado]->(f:Film)-[:com_categoria]->(c:Category) 
