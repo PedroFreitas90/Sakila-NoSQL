@@ -5,13 +5,17 @@ def find_actor(id):
     actores = json.loads(f.read())
     actor = actores["actor"]
     i = 0
+    if(id == "110"):
+        end = " (2)"
+    else:
+        end = ""
     while(i < 201):
         if(actor[i]["actor"] == id):
             actor[i].pop("last_update")
             actor[i].pop("actor")
             fn = actor[i]["first_name"]
             ln = actor[i]["last_name"]
-            actor[i]["name"] = fn + " " + ln
+            actor[i]["name"] = fn + " " + ln + end
             actor[i].pop("first_name")
             actor[i].pop("last_name")
             #return (actor[i])
@@ -35,13 +39,6 @@ def find_actores_filme(idFilme):
         i+=1
     return actors
 
-def change_test():
-    f = open("aux.json","r")
-    data = json.loads(f.read())
-    data["address"][0]["phone123"] = data["address"][0].pop("phone")
-    print(data["address"][0])
-    f2 = open("aux.json","w")
-    json.dump(data,f,indent=4)
 
 # Função que encontra o objeto cidade com o id passado
 def find_language(id):

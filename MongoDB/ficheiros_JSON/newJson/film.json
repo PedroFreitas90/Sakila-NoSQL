@@ -1,5 +1,4 @@
-{
-   "film": [
+[
       {
          "film_id": 1,
          "title": "ACADEMY DINOSAUR",
@@ -177,7 +176,7 @@
          "actors": [
             "FAY KILMER",
             "GENE WILLIS",
-            "SUSAN DAVIS",
+            "SUSAN DAVIS (2)",
             "LUCILLE DEE"
          ]
       },
@@ -608,7 +607,7 @@
             "GRACE MOSTEL",
             "FAY KILMER",
             "JIM MOSTEL",
-            "SUSAN DAVIS",
+            "SUSAN DAVIS (2)",
             "WHOOPI HURT",
             "EMILY DEE",
             "MERYL GIBSON",
@@ -1405,7 +1404,7 @@
          "actors": [
             "JENNIFER DAVIS",
             "GINA DEGENERES",
-            "SUSAN DAVIS",
+            "SUSAN DAVIS (2)",
             "ALBERT NOLTE",
             "AUDREY BAILEY"
          ]
@@ -2689,7 +2688,7 @@
             "BEN WILLIS",
             "ELLEN PRESLEY",
             "CHRIS BRIDGES",
-            "SUSAN DAVIS",
+            "SUSAN DAVIS (2)",
             "JANE JACKMAN",
             "KIM ALLEN",
             "HARVEY HOPE",
@@ -2830,7 +2829,7 @@
             "MENA TEMPLE",
             "DARYL WAHLBERG",
             "GROUCHO DUNST",
-            "SUSAN DAVIS"
+            "SUSAN DAVIS (2)"
          ]
       },
       {
@@ -3492,7 +3491,7 @@
          "category": "Documentary",
          "actors": [
             "PENELOPE CRONYN",
-            "SUSAN DAVIS",
+            "SUSAN DAVIS (2)",
             "ADAM HOPPER",
             "BELA WALKEN"
          ]
@@ -6538,7 +6537,7 @@
             "PENELOPE PINKETT",
             "KENNETH PALTROW",
             "GINA DEGENERES",
-            "SUSAN DAVIS",
+            "SUSAN DAVIS (2)",
             "MORGAN HOPKINS"
          ]
       },
@@ -7677,7 +7676,7 @@
             "MICHELLE MCCONAUGHEY",
             "CARY MCCONAUGHEY",
             "RALPH CRUZ",
-            "SUSAN DAVIS",
+            "SUSAN DAVIS (2)",
             "SCARLETT BENING",
             "LAURA BRODY"
          ]
@@ -8047,7 +8046,7 @@
          "category": "Action",
          "actors": [
             "MATTHEW LEIGH",
-            "SUSAN DAVIS",
+            "SUSAN DAVIS (2)",
             "AL GARLAND",
             "MICHAEL BOLGER"
          ]
@@ -8249,7 +8248,7 @@
             "ELVIS MARX",
             "BEN WILLIS",
             "GINA DEGENERES",
-            "SUSAN DAVIS",
+            "SUSAN DAVIS (2)",
             "FRANCES TOMEI",
             "REESE WEST"
          ]
@@ -9737,7 +9736,7 @@
          "actors": [
             "SANDRA KILMER",
             "RIP WINSLET",
-            "SUSAN DAVIS",
+            "SUSAN DAVIS (2)",
             "RENEE BALL"
          ]
       },
@@ -11512,7 +11511,7 @@
             "UMA WOOD",
             "BOB FAWCETT",
             "SPENCER DEPP",
-            "SUSAN DAVIS",
+            "SUSAN DAVIS (2)",
             "PENELOPE MONROE",
             "IAN TANDY"
          ]
@@ -11787,7 +11786,7 @@
          "actors": [
             "AUDREY OLIVIER",
             "GARY PHOENIX",
-            "SUSAN DAVIS",
+            "SUSAN DAVIS (2)",
             "MORGAN HOPKINS",
             "GRETA KEITEL"
          ]
@@ -12097,7 +12096,7 @@
          "category": "Drama",
          "actors": [
             "ED CHASE",
-            "SUSAN DAVIS",
+            "SUSAN DAVIS (2)",
             "SCARLETT BENING",
             "JANE JACKMAN",
             "GEOFFREY HESTON",
@@ -12244,7 +12243,7 @@
             "FRANCES DAY-LEWIS",
             "SCARLETT DAMON",
             "KIRSTEN AKROYD",
-            "SUSAN DAVIS",
+            "SUSAN DAVIS (2)",
             "FRANCES TOMEI",
             "HUMPHREY WILLIS",
             "MARY KEITEL"
@@ -14033,7 +14032,7 @@
          "category": "Sci-Fi",
          "actors": [
             "WOODY HOFFMAN",
-            "SUSAN DAVIS",
+            "SUSAN DAVIS (2)",
             "KIM ALLEN",
             "OLYMPIA PFEIFFER",
             "MATTHEW CARREY",
@@ -14602,7 +14601,7 @@
             "JOE SWANK",
             "DUSTIN TAUTOU",
             "ANGELINA ASTAIRE",
-            "SUSAN DAVIS",
+            "SUSAN DAVIS (2)",
             "CATE MCQUEEN",
             "ED GUINESS",
             "HUMPHREY GARLAND"
@@ -17986,7 +17985,7 @@
          "language": "English",
          "category": "Children",
          "actors": [
-            "SUSAN DAVIS",
+            "SUSAN DAVIS (2)",
             "HUMPHREY WILLIS",
             "GREGORY GOODING"
          ]
@@ -20486,7 +20485,7 @@
             "ANGELINA ASTAIRE",
             "CHRIS BRIDGES",
             "MATTHEW LEIGH",
-            "SUSAN DAVIS",
+            "SUSAN DAVIS (2)",
             "CATE MCQUEEN",
             "THORA TEMPLE"
          ]
@@ -21576,7 +21575,7 @@
          "actors": [
             "MENA TEMPLE",
             "SPENCER PECK",
-            "SUSAN DAVIS",
+            "SUSAN DAVIS (2)",
             "MORGAN MCDORMAND",
             "SALMA NOLTE"
          ]
@@ -22161,7 +22160,7 @@
          "category": "Music",
          "actors": [
             "GENE WILLIS",
-            "SUSAN DAVIS",
+            "SUSAN DAVIS (2)",
             "SCARLETT BENING",
             "ADAM HOPPER",
             "FAY WINSLET",
@@ -22460,4 +22459,3 @@
          ]
       }
    ]
-}
