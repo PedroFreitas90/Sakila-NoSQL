@@ -88,6 +88,7 @@ def find_film(film_id):
     size = len(film)
     while(i < size):
         if(film[i]["film_id"] == film_id):
+            #print(film[i])
             film[i].pop("release_year")
             film[i].pop("rental_duration")
             film[i].pop("rental_rate")
@@ -107,7 +108,7 @@ def find_inventory(inventory_id):
     size = len(inventory)
     while(i < size):
         if(inventory[i]["inventory_id"] == inventory_id):
-            film = find_film(inventory[i]["film_id"])
+            film = find_film(int(inventory[i]["film_id"]))
             return film
         i+=1
     return

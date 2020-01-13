@@ -1,0 +1,3 @@
+mongoimport -d Sakila -c rentals --jsonArray ficheiros_JSON/newJson/rentals.json
+
+mongoimport -d Sakila -c customers --jsonArray ficheiros_JSON/newJson/customers.json 

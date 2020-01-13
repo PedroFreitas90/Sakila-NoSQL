@@ -101,6 +101,7 @@ def processFilms():
             film["category"] = category
             film["actors"] = actors
             film.pop("original_language_id")
+            film["film_id"] = int(film["film_id"])
 
         i+=1
 
